@@ -1,0 +1,92 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+:root{
+     --color-bg-dark:#192a33;
+    --color-bg-light:#1f3640;
+    --color-gray:#bacdd7;
+    --color-gray-dark:#7a8991;
+    --color-yellow:#f2b238;
+     --color-popup-yellow:#ffda6a;
+    --color-yellow-dark:#cd8d16;
+    --color-blue:#30c4be;
+    --color-blue-dark:#128c89;
+}
+
+body{
+    background-color:var(--color-bg-dark) ;
+    color: var(--color-gray);
+    font-size: 16px;
+    font-weight: 500;
+}
+.popup-yellow{
+     background-color: var(--color-popup-yellow)!important;
+}
+.color-yellow{
+     color: var(--color-yellow);
+}
+.bg__dark{
+     background-color:var(--color-bg-dark)!important ;
+}
+.bg__light{
+     background-color:var(--color-bg-light) ;
+}
+.bg__blue{
+     background-color:var(--color-blue-dark) ;
+}
+.bg__gray ,.bg__gray:hover,.bg__gray:focus,.bg__gray:focus-visible,.bg__gray:active {
+     background-color: var( --color-gray)!important;
+       color: var(--color-bg-dark)!important;
+       border: none!important;
+}
+
+.bg__blue,.bg__blue:hover , .bg__blue:active{
+     background-color:var( --color-blue)!important;
+      color: var(--color-bg-dark)!important;
+}
+.bg__yellow:hover,.bg__yellow:active{
+     background-color:var( --color-yellow)!important;
+      color: var(--color-bg-dark)!important;      
+}
+.bg__blue:active{
+     background-color:var(--color-blue) ;
+     color: var(--color-bg-dark)!important;
+}
+.bg__yellow{
+     background-color:var( --color-yellow) ;
+     color: var(--color-bg-dark)!important;
+     
+}
+.text__dark{
+     color: var(--color-bg-dark);
+     font-weight: 500;
+}
+.btn{
+     border: none!important;;
+}
+
+.blue{
+     color:var(--color-blue) ;
+}
+.yellow{
+     color:var( --color-yellow) ;
+}
+
+.App{
+    min-height: 100vh;
+}
+.shadow{
+    box-shadow: 4px 8px 14px -8px rgba(0, 0, 0, 0.8)!important;
+  /* box-shadow: inset 0px 21px 8px -10px #ccc, */
+  /* inset 0px -21px 8px -10px #ccc; */
+}
+.container div{
+     cursor: pointer;
+}
+.width-fit-content{
+      width:fit-content
+}
+.Restart,.Win{
+     position: absolute;
+}

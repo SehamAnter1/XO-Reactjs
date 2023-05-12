@@ -1,0 +1,35 @@
+
+.start .shadow_gray{
+    background-color: var(--color-bg-light);
+}
+.start .start_players{
+    display: flex;
+    box-shadow:inset 0px 0px 8px rgba(0, 0, 0, 0.2)!important;
+}
+.start .start_players span{
+   font-size: 22px;
+   text-align: center;
+   margin: auto;
+   font-weight: bold;
+    width: 100%;
+    padding: 5px;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
+.start .start_players .active{
+ background-color: #d2d3d2;
+ color: var(--color-bg-dark);
+ box-shadow: 0px 0px 7px #fdf2f2;
+
+}
+.start h3{
+    font-size: 16px;
+}
+.start_btns button{
+ font-weight: bold;
+ border: none;
+ box-shadow:inset -1px -2px 0px 2px rgba(0, 0, 0, 0.2)!important;
+}
